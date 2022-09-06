@@ -1,0 +1,36 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Edit User</li>
+  </ol>
+</nav>
+
+{{#if alert }}
+  <div class="alert alert-success alert-dismissible fade show" role="alert" id="alert">{{alert}}
+  </div>
+{{/if}}
+
+{{#each rows}}
+  <form class="row g-3 needs-validation" method="POST" action="/edituser/{{this.id}}" novalidate>
+      {{> user-form}}
+      <div class="col-12 d-grid">
+    <button type="submit" class="btn btn-primary" id="btn">Save change</button>  
+    </div>
+  </form> 
+{{/each}}
+
+      <script type="text/javascript">
+        setTimeout(function () {
+  
+            // Closing the alert
+            $('#alert').alert('close');
+        }, 1500);
+    </script>
+    <!-- Including jQuery -->
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
+    </script>
+    <!-- Including Bootstrap JS -->
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+    </script>

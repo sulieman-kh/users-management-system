@@ -1,0 +1,59 @@
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input
+      type="text"
+      class="form-control"
+      id="firstName"
+      name="firstName"
+      placeholder="First Name"
+      value="{{first_name}}"
+    />
+    <label for="firstName">First name</label>
+  </div>
+  </div>
+
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input
+      type="text"
+      class="form-control"
+      id="lastName"
+      name="lastName"
+      placeholder="Last Name"
+      value="{{this.last_name}}"
+    />
+    <label for="lastName">Last name</label>
+  </div>
+  </div>
+
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="email" name="email" 
+    placeholder="name@email.com"
+    value="{{this.email}}"/>
+    <label for="email">Email Address</label>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input type="phone" class="form-control" id="phone" name="phone" placeholder="Phone"
+      value="{{this.phone}}"/>
+    <label for="phone">Phone</label>
+      </div>
+  </div>
+  
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <textarea class="form-control" id="comments" name="comments" placeholder="Leave a comment here" style="height"/>{{this.comments}}</textarea> 
+    <label for="comments">Comments</label>
+      </div>
+  </div>
+
+
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <textarea class="form-control" id="userImage" name="userImage" placeholder="userImage" />{{this.user_image}}</textarea> 
+    <label for="userImage">Upload image</label>
+      </div>
+  </div>
+
