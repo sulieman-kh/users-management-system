@@ -1,6 +1,6 @@
-#Employee Managment System using node.js Express MySQL Bootstrap
+Employee Managment System using node.js Express MySQL Bootstrap
 
-##We have many options:
+We have many options:
 1- Search.
 2- Add new Record.
 3- Update Record.
