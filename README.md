@@ -20,5 +20,8 @@ npm i --save-dev nodemon@2.0.7
 
 ## Demo
 <br>
-[Watch the video](https://i9.ytimg.com/vi_webp/ScAzJhCVtaw/mq3.webp?sqp=CODD2qkG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDKHdHiOilQuSlzuY2ZXLodv0Nwnw)](https://youtu.be/ScAzJhCVtaw?si=tuBzMFaq1yOFWrQH)
+[![Watch the video](https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg)](https://www.youtube.com/embed/<VIDEO_ID>)
+
+[<img src="https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg" width="600" height="300"
+/>](https://youtu.be/ScAzJhCVtaw?si=tuBzMFaq1yOFWrQH)
 
