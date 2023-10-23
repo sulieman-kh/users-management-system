@@ -1,23 +1,21 @@
-# Employee Managment System using node.js Express MySQL Bootstrap v5.1
+# Users Management System using node.js Express Postgresql Bootstrap v5.1
 
 ## We have many options:
-1. Search.
-2. Add new Record.
-3. Update Record.
-4. Delete Record.
+
+1 Создание пользователя
+2 Изменение пользователя
+3 Получение списка пользователей
+4 Удаление пользователя
+5 Истории действий с пользователями
 
 The packages used were written to make it easier to install:
+
 ```
-npm i body-parser@1.19.0 express@4.17.1 dotenv@8.2.0 express-handlebars@5.2.0 mysql@2.18.1
+npm i body-parser@1.19.0 express@4.17.1 dotenv@8.2.0 express-handlebars@5.2.0 pg@8.11.3
 ```
+
 ```
 npm i --save-dev nodemon@2.0.7
 ```
-## Demo
-<div>
-<img src="https://user-images.githubusercontent.com/35015159/188751482-d34c29d9-a411-4fe6-8d47-68452a074312.jpg" />
-<img src="https://user-images.githubusercontent.com/35015159/188751030-d77e5ff8-063f-4a26-a589-03725375a730.jpg" />
-<img src="https://user-images.githubusercontent.com/35015159/188752221-be664ed0-ffc8-4f23-8d90-f4aa253627f5.jpg"  width="485" height="299" />
-<img src="https://user-images.githubusercontent.com/35015159/188751047-a6db742d-0c0b-4952-b8f9-6ea42bf79ecc.jpg" width="485" height="299" />
-</div>
 
+## Demo

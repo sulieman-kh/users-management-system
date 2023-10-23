@@ -3,12 +3,12 @@
       <input
       type="text"
       class="form-control"
-      id="firstName"
-      name="firstName"
-      placeholder="First Name"
-      value="{{first_name}}"
+      id="username"
+      name="username"
+      placeholder="Username"
+      value="{{username}}"
     />
-    <label for="firstName">First name</label>
+    <label for="username">Имя пользователя</label>
   </div>
   </div>
 
@@ -17,12 +17,26 @@
       <input
       type="text"
       class="form-control"
-      id="lastName"
-      name="lastName"
-      placeholder="Last Name"
-      value="{{this.last_name}}"
+      id="firstname"
+      name="firstname"
+      placeholder="Firstname"
+      value="{{firstname}}"
     />
-    <label for="lastName">Last name</label>
+    <label for="firstname">Имя</label>
+  </div>
+  </div>
+
+  <div class="col-6">
+    <div class="form-floating mb-3">
+      <input
+      type="text"
+      class="form-control"
+      id="lastname"
+      name="lastname"
+      placeholder="Lastname"
+      value="{{lastname}}"
+    />
+    <label for="lastname">Фамилия</label>
   </div>
   </div>
 
@@ -30,30 +44,30 @@
     <div class="form-floating mb-3">
       <input type="email" class="form-control" id="email" name="email" 
     placeholder="name@email.com"
-    value="{{this.email}}"/>
-    <label for="email">Email Address</label>
+    value="{{email}}"/>
+    <label for="email">Эмайл</label>
     </div>
   </div>
   <div class="col-6">
     <div class="form-floating mb-3">
       <input type="phone" class="form-control" id="phone" name="phone" placeholder="Phone"
-      value="{{this.phone}}"/>
-    <label for="phone">Phone</label>
+      value="{{phone}}"/>
+    <label for="phone">Телефон</label>
       </div>
   </div>
   
   <div class="col-6">
     <div class="form-floating mb-3">
-      <textarea class="form-control" id="comments" name="comments" placeholder="Leave a comment here" style="height"/>{{this.comments}}</textarea> 
-    <label for="comments">Comments</label>
+      <textarea class="form-control" id="comment" name="comment" placeholder="Leave a comment here" style="height"/>{{comment}}</textarea> 
+    <label for="comment">Комментарий</label>
       </div>
   </div>
 
 
   <div class="col-6">
     <div class="form-floating mb-3">
-      <textarea class="form-control" id="userImage" name="userImage" placeholder="userImage" />{{this.user_image}}</textarea> 
-    <label for="userImage">Upload image</label>
+      <textarea class="form-control" id="userImage" name="userImage" placeholder="https://..." />{{userImage}}</textarea> 
+    <label for="userImage">Загрузить изображение</label>
       </div>
   </div>
 

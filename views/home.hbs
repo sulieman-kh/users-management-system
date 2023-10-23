@@ -1,6 +1,6 @@
 {{#if removedUser}}
   <div class="alert alert-success alert-dismissible fade show" role="alert">
-    User has been removed.
+    Пользователь удален.
     <button
       type="button"
       class="btn-close"
@@ -11,45 +11,58 @@
 {{/if}}
 
 <div class="row">
-  <div class="col-6"><h1>Employees
+  <div class="col-6"><h1>Пользователи
       <img
         src="employees-svgrepo-com.svg"
         alt="employees-icon"
         style="width: 50px; height:50px;"
       />
     </h1></div>
-  <div class="col-6 d-flex justify-content-end">
-    <a href="/adduser" type="bytton" class="btn btn-dark align-self-center"><img
+  <div class="col-6 d-flex justify-content-end gap-2">
+    <a href="/adduser" type="button" class="btn btn-dark align-self-center"><img
         src="add-user-add-svgrepo-com.svg"
         alt="edit-icon"
         style="width: 30px; height:30px;"
       />
-      add user</a>
+      Добавить</a>
+
+    <a
+      href="/usersactivities"
+      type="button"
+      class="btn btn-dark align-self-center"
+    ><img
+        src="history-svgrepo-com.svg"
+        alt="edit-icon"
+        style="width: 30px; height:30px;"
+      />
+      Архив</a>
   </div>
 </div>
 
 <table class="table table-bordered">
   <thead class="thead-dark">
     <tr style="text-align: center;">
-      {{! <th scope="col">#</th> }}
-      <th scope="col">User picture</th>
-      <th scope="col">First Name</th>
-      <th scope="col">Last Name</th>
-      <th scope="col">Email</th>
-      <th scope="col">Phone</th>
-      <th scope="col">Action</th>
+      <th scope="col">#</th>
+      <th scope="col">Фото</th>
+      <th scope="col">Имя пользователя</th>
+      <th scope="col">Имя</th>
+      <th scope="col">Фамилия</th>
+      <th scope="col">Эмайл</th>
+      <th scope="col">Телефон</th>
+      <th scope="col">Комментарий</th>
     </tr>
   </thead>
   <tbody>
+
     {{#each rows}}
       <tr style="text-align: center;">
-        {{!-- <th scope="row">{{this.id}}</th> --}}
+        <th scope="row">{{this.id}}</th>
         <th>
-          {{#if this.user_image}}
+          {{#if this.userimage}}
             <img
               class="card-image"
-              style="width: 75px; height: 75px;"
-              src="{{this.user_image}}"
+              style="width: 75px; height: 75px; border-radius: 50%"
+              src="{{this.userimage}}"
               alt="user-profile"
             />
           {{else}}
@@ -57,15 +70,17 @@
               class="card-image"
               src="person-svgrepo-com.svg"
               alt="user-profile"
-              style="width: 80px; height: 80px;"
+              style="width: 80px; height: 80px; border-radius: 50%"
             />
           {{/if}}
         </th>
-        <td>{{this.first_name}}</td>
-        <td>{{this.last_name}}</td>
+        <td>{{this.username}}</td>
+        <td>{{this.firstname}}</td>
+        <td>{{this.lastname}}</td>
         <td>{{this.email}}</td>
         <td>{{this.phone}}</td>
-        <td>
+        <td>{{this.comment}}</td>
+        <td class="d-flex gap-2">
           <a
             href="/edituser/{{this.id}}"
             type="button"
@@ -73,20 +88,21 @@
           ><img
               src="edit-svgrepo-com.svg"
               alt="edit-icon"
-              style="width: 30px; height:30px;"
+              style="width: 20px; height:20px;"
             /><i class="bi bi-pencil"></i>
-            Edit</a>
+            Редактировать</a>
 
           <a href="/{{this.id}}" type="button" class="btn btn-dark btn-small"><i
               class="bi bi-person-x"
             ><img
                 src="user-svgrepo-com.svg"
                 alt="edit-icon"
-                style="width: 30px; height:30px;"
+                style="width: 20px; height:20px;"
               /></i>
-            Delete</a>
+            Удалить</a>
         </td>
       </tr>
     {{/each}}
+
   </tbody>
 </table>

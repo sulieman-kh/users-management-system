@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"user_management"},
+{"type":"table","name":"user","database":"user_management","data":
+[
+{"id":"41","first_name":"Martha","last_name":"Lucas","email":"mustafa.zula@yahoo.com","phone":"6626267249","comments":"full time","status":"active","user_image":"https://www.fakepersongenerator.com//Face//female//female20161024830581451.jpg"},
+{"id":"39","first_name":"Сулейман","last_name":"Хаддур","email":"sul.h.kh@hotmail.com","phone":"+79969239935","comments":"Admin","status":"active","user_image":"https://sul-frontend.netlify.app//assets//profilepic-13b23508.jpg"},
+{"id":"37","first_name":"Susanna","last_name":"Swanson","email":"susanna@hotmail.com","phone":"+5645225189","comments":"HR Director","status":"active","user_image":"https://randomuser.me//api//portraits//women//87.jpg"},
+{"id":"14","first_name":"Wera","last_name":"Hares","email":"hareware@gmail.com","phone":"+7852112588","comments":"ios developer","status":"active","user_image":"https://randomuser.me//api//portraits//women//30.jpg"},
+{"id":"28","first_name":"Ivan","last_name":"Swan","email":"ivan.swan@hotmail.com","phone":"+79369333933","comments":"web developer","status":"active","user_image":"https://randomuser.me//api//portraits//men//1.jpg"},
+{"id":"38","first_name":"Macy","last_name":"New","email":"macy_new@yahoo.com","phone":"+963996925965","comments":"web developer","status":"active","user_image":""}
+]
+}
+]
