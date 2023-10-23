@@ -20,5 +20,6 @@ npm i --save-dev nodemon@2.0.7
 
 ## Demo
 <br>
-[![Watch the video](https://i9.ytimg.com/vi_webp/ScAzJhCVtaw/mq3.webp?sqp=CODD2qkG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDKHdHiOilQuSlzuY2ZXLodv0Nwnw)](https://www.youtube.com/watch?v=ScAzJhCVtaw)
+[![Watch the video](https://i9.ytimg.com/vi_webp/ScAzJhCVtaw/mq3.webp?sqp=CODD2qkG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDKHdHiOilQuSlzuY2ZXLodv0Nwnw)](![image](https://github.com/sulieman-kh/users-management-system/assets/35015159/2ee17b7f-516a-4481-9928-5d6e96b15255)
+)
 
