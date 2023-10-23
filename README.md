@@ -1,4 +1,4 @@
-![image](https://github.com/sulieman-kh/users-management-system/assets/35015159/7c15677c-a1d7-455a-9b3f-8f26b620b81d)# Users Management System using node.js Express Postgresql Bootstrap v5.1
+# Users Management System using node.js Express Postgresql Bootstrap v5.1
 
 ## We have many options:
 
@@ -20,8 +20,6 @@ npm i --save-dev nodemon@2.0.7
 
 ## Demo
 <br>
-[![Watch the video](https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg)](https://www.youtube.com/embed/<VIDEO_ID>)
 
-[<img src="https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg" width="600" height="300"
-/>](https://youtu.be/ScAzJhCVtaw?si=tuBzMFaq1yOFWrQH)
+(https://youtu.be/ScAzJhCVtaw?si=tuBzMFaq1yOFWrQH)
 
